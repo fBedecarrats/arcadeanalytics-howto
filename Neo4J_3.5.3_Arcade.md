@@ -18,9 +18,12 @@ docker start neo4j
 
 Run the following commands to download arcadeanalytics-recipes
 ```
+# On linux, open the terminal, on Windows, open cmd
 curl -LJO https://github.com/ArcadeData/arcadeanalytics-recipes/archive/master.zip 
 unzip arcadeanalytics-recipes-master.zip
+# Sous Windows, remplacer 'mv' par 'move'
 mv arcadeanalytics-recipes-master arcadeanalytics-recipes
+# Sous Windows, remplacer 'rm' par 'del'
 rm arcadeanalytics-recipes-master.zip
 ```
 
