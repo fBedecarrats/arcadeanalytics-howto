@@ -30,5 +30,10 @@ rm arcadeanalytics-recipes-master.zip
 Create the container
 ```
 cd arcadeanalytics-recipes
-docker-compose -f recipes/arcade-standalone.yml up
-``
+# Specify the name you want after -p instead of "My_Name"
+docker-compose -f recipes/arcade-standalone.yml -p "My_Name" up
+```
+Connect to Arcadeanalytics:
+On the web browser, type http://localhost:8080 (http, not httpS).
+Use the default logins: user = 'user', password = 'user' (change logins after the first use).
+
